@@ -8,8 +8,8 @@ public class Main {
         //System.out.println(obj.name);
         // Error -> 'name' has private access
         String name = "tom";
-        obj.setter(name);
-        System.out.println(obj.getter());
+        obj.setName(name);
+        System.out.println(obj.getName());
     }
   
 }
